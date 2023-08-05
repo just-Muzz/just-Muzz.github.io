@@ -31,6 +31,13 @@ const Projects = () => {
       repoUrl: "https://github.com/just-muzz/Medium-clone",
       liveUrl: "https://just-muzz.github.io/Medium-clone",
     },
+    {
+      title: "Analog clock",
+      description: "An analog clock",
+      imgUrl: projImg3,
+      repoUrl: "https://github.com/just-Muzz/Analog-clock",
+      liveUrl: "https://just-muzz.github.io/Analog-clock/",
+    },
   ];
   return (
     <section className="project" id="projects">

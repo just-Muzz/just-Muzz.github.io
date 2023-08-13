@@ -4,6 +4,9 @@ import "../assets/styles/projects.css"
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
@@ -33,10 +36,24 @@ const Projects = () => {
     },
     {
       title: "Analog clock",
-      description: "An analog clock",
-      imgUrl: projImg3,
+      description: "An analog clock that displays time",
+      imgUrl: projImg4,
       repoUrl: "https://github.com/just-Muzz/Analog-clock",
       liveUrl: "https://just-muzz.github.io/Analog-clock/",
+    },
+    {
+      title: "Code editor",
+      description: "A web code editor I like to call mini code-pen.io",
+      imgUrl: projImg5,
+      repoUrl: "https://github.com/just-Muzz/Code-editor",
+      liveUrl: "https://just-muzz.github.io/Code-editor/",
+    },
+    {
+      title: "Chat app illustration",
+      description: "A coding challenge from Frontend mentor",
+      imgUrl: projImg6,
+      repoUrl: "https://github.com/just-Muzz/chat-app-illustration-FEM",
+      liveUrl: "https://just-muzz.github.io/chat-app-illustration-FEM/",
     },
   ];
   return (
